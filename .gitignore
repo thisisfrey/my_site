@@ -1,0 +1,93 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+*.venv
+venv/
+ENV/
+env/
+.Python
+db.sqlite3
+# Ignore SQLite database files
+*.sqlite3
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+media
+staticfiles
+node_modules/
+*.node
+# Ignore the /migrations/ directory, except for the __init__.py files
+**/migrations/*
+!**/migrations/__init__.py
+
+# If using Postgres
+*.pgsql
+
+# If using MySQL
+*.sql
+
+# If using Docker
+*.env
+*.env.*
+!.env.example
+**/docker-compose.override.yml
+# Ignore Docker container files
+.docker/
+
+# Environment variables
+.env
+.env.*
+
+# Secret settings files
+secrets.json
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*~
+.project
+.pydevproject
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# If using Pipenv
+Pipfile.lock
+
+# If using poetry
