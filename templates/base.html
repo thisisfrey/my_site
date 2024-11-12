@@ -15,6 +15,7 @@
           <h1><a href="{% url "starting-page"%}">Antonia's Blog</a></h1>
           <nav>
             <a href="{% url "posts"%}">All Posts</a>
+			<a href="{% url "book-a-class"%}" class="nav-button">Book a class</a>
           </nav>
     </header>
 
@@ -27,3 +28,27 @@
     </footer> {% endcomment %}
   </body>
 </html>
+
+<style>
+  .nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+	margin-left: 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+  .button:active {
+    background-color: #004085;
+  }
+</style>
